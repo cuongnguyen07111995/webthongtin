@@ -1,6 +1,6 @@
-# Homework 1 - *Name of App*
+# Homework 1 - *Trang web cho phép người dùng chia sẻ và cập nhật trạng thái*
 
-**Name of your app** Trang web cho phép người dùng chia sẻ và cập nhật trạng thái. Due Date: 24:00 11/10/2016
+ Due Date: 24:00 11/10/2016
 
 Danh sách sinh viên: 1312060-Nguyễn Ngọc Cương
 
