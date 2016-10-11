@@ -7,7 +7,9 @@ class PostsController < ApplicationController
 	def new
     @post=User.new
 	end
-
+  def login
+     render 'posts/login'
+  end
 	def create
 		 @post=User.new(post_params)
    	    if @post.save
@@ -23,7 +25,7 @@ class PostsController < ApplicationController
 
     private
        def post_params
-       	   params.require(:user).permit(:email,:password,:username)
+       	   params.require(:user).permit(:email,:password)
        	
        end
 end

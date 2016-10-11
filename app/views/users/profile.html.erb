@@ -1,0 +1,13 @@
+<%= form_for :comment do |f|%>
+<div class="well">
+  <form class="new_comment" id="new_comment" action="/comments" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <div class="form-group">
+        <label for="comment_content">Enter your comment:</label>
+        <textarea rows="3" class="form-control" required="required" maxlength="2000" name="comment[comment]" id="comment_content">
+</textarea>
+        <small class="label label-warning">Cannot be blank or contain more than 2000 symbols.</small>
+      </div>
+
+      <input type="submit" name="commit" value="Submit" class="btn btn-primary btn-lg" />
+</form></div>
+<% end %>
