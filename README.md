@@ -46,7 +46,7 @@ Quy trình sử dụng [GIT Workflow](https://www.atlassian.com/git/tutorials/co
 
 Here's a walkthrough of implemented user stories:
 
-![Video Walkthrough](relative-path-to-your-gif-file-on-github)
+![Video Walkthrough]
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
