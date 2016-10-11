@@ -1,0 +1,18 @@
+<%= form_for :user , url: posts_path do |f|%>
+    <div class="container">
+
+      <form class="form-signin">
+        <h2 class="form-signin-heading">Đăng ký</h2>
+        <h4 >Email address</h4>
+         <input type="email" style="width:200px; " id="inputEmail" class="form-control" placeholder="Email address" required autofocus name="user[email]">
+        <h4 >Password</h4> 
+       <input type="password" style="width:200px;" id="inputEmail" class="form-control" placeholder="Password" required autofocus name="user[password]">
+          <label>
+            <input type="checkbox"> Remember me
+          </label>s
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" style="width:200px;margin-left:15px;" type="submit">Đăng ký</button>
+      </form>
+
+    </div> 
+<% end %>
