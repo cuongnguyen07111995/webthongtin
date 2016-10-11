@@ -1,4 +1,4 @@
-# Homework 1 - *Trang web cho phép người dùng chia sẻ và cập nhật trạng thái*
+﻿# Homework 1 - *Trang web cho phép người dùng chia sẻ và cập nhật trạng thái*
 
 Danh sách sinh viên: 1312060-Nguyễn Ngọc Cương
 
